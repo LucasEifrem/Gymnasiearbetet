@@ -28,80 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
+            btnremove1 = new Button();
+            btnremove2 = new Button();
+            btnremove3 = new Button();
+            btnremove4 = new Button();
+            btnremove5 = new Button();
+            BtnReady = new Button();
+            lbltest = new Label();
             SuspendLayout();
             // 
-            // label1
+            // btnremove1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(349, 109);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
-            label1.Click += label1_Click;
+            btnremove1.Location = new Point(12, 299);
+            btnremove1.Name = "btnremove1";
+            btnremove1.Size = new Size(94, 23);
+            btnremove1.TabIndex = 1;
+            btnremove1.Text = "Remove card 1";
+            btnremove1.UseVisualStyleBackColor = true;
+            btnremove1.Click += button1_Click;
             // 
-            // button1
+            // btnremove2
             // 
-            button1.Location = new Point(65, 326);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 1;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnremove2.Location = new Point(12, 328);
+            btnremove2.Name = "btnremove2";
+            btnremove2.Size = new Size(94, 23);
+            btnremove2.TabIndex = 2;
+            btnremove2.Text = "Remove card 2";
+            btnremove2.UseVisualStyleBackColor = true;
+            btnremove2.Click += button2_Click;
             // 
-            // button2
+            // btnremove3
             // 
-            button2.Location = new Point(195, 326);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 2;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnremove3.Location = new Point(12, 357);
+            btnremove3.Name = "btnremove3";
+            btnremove3.Size = new Size(94, 23);
+            btnremove3.TabIndex = 3;
+            btnremove3.Text = "Remove card 3";
+            btnremove3.UseVisualStyleBackColor = true;
+            btnremove3.Click += button3_Click;
             // 
-            // button3
+            // btnremove4
             // 
-            button3.Location = new Point(333, 326);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 3;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            btnremove4.Location = new Point(12, 386);
+            btnremove4.Name = "btnremove4";
+            btnremove4.Size = new Size(94, 23);
+            btnremove4.TabIndex = 4;
+            btnremove4.Text = "Remove card 4";
+            btnremove4.UseVisualStyleBackColor = true;
+            btnremove4.Click += button4_Click;
             // 
-            // button4
+            // btnremove5
             // 
-            button4.Location = new Point(442, 326);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 4;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            btnremove5.Location = new Point(12, 415);
+            btnremove5.Name = "btnremove5";
+            btnremove5.Size = new Size(94, 23);
+            btnremove5.TabIndex = 5;
+            btnremove5.Text = "Remove card 5";
+            btnremove5.UseVisualStyleBackColor = true;
+            btnremove5.Click += button5_Click;
             // 
-            // button5
+            // BtnReady
             // 
-            button5.Location = new Point(566, 326);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 23);
-            button5.TabIndex = 5;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
+            BtnReady.Location = new Point(648, 249);
+            BtnReady.Name = "BtnReady";
+            BtnReady.Size = new Size(75, 23);
+            BtnReady.TabIndex = 6;
+            BtnReady.Text = "Play";
+            BtnReady.UseVisualStyleBackColor = true;
+            BtnReady.Click += BtnReady_Click;
+            // 
+            // lbltest
+            // 
+            lbltest.AutoSize = true;
+            lbltest.Location = new Point(12, 9);
+            lbltest.Name = "lbltest";
+            lbltest.Size = new Size(39, 15);
+            lbltest.TabIndex = 7;
+            lbltest.Text = "lbltest";
+            lbltest.Click += label1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label1);
+            Controls.Add(lbltest);
+            Controls.Add(BtnReady);
+            Controls.Add(btnremove5);
+            Controls.Add(btnremove4);
+            Controls.Add(btnremove3);
+            Controls.Add(btnremove2);
+            Controls.Add(btnremove1);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -111,11 +128,13 @@
 
         #endregion
 
-        private Label label1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
+        private Label Lblshowcards;
+        private Button btnremove1;
+        private Button btnremove2;
+        private Button btnremove3;
+        private Button btnremove4;
+        private Button btnremove5;
+        private Button BtnReady;
+        private Label lbltest;
     }
 }

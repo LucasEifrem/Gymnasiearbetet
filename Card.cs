@@ -13,6 +13,7 @@ namespace Gymnasiearbete
     {
         public enum Suit
         {
+            None = 0,
             Ace = 1,
             Two = 2,
             Three = 3,
@@ -29,6 +30,7 @@ namespace Gymnasiearbete
             
         }
         public enum Color{
+            None = 0,
             Hearts = 1, 
             Spades = 2,
             Diamonds = 3,

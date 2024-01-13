@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\GYMNASIEARBETE\\Gymnasiearbete\\Gymnasiearbete.csproj": {}
+    "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\NyaGymnasiearbete\\Gymnasiearbete\\Gymnasiearbete.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\GYMNASIEARBETE\\Gymnasiearbete\\Gymnasiearbete.csproj": {
+    "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\NyaGymnasiearbete\\Gymnasiearbete\\Gymnasiearbete.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\GYMNASIEARBETE\\Gymnasiearbete\\Gymnasiearbete.csproj",
+        "projectUniqueName": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\NyaGymnasiearbete\\Gymnasiearbete\\Gymnasiearbete.csproj",
         "projectName": "Gymnasiearbete",
-        "projectPath": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\GYMNASIEARBETE\\Gymnasiearbete\\Gymnasiearbete.csproj",
+        "projectPath": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\NyaGymnasiearbete\\Gymnasiearbete\\Gymnasiearbete.csproj",
         "packagesPath": "C:\\Users\\Lucre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\GYMNASIEARBETE\\Gymnasiearbete\\obj\\",
+        "outputPath": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\NyaGymnasiearbete\\Gymnasiearbete\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucre\\AppData\\Roaming\\NuGet\\NuGet.Config",

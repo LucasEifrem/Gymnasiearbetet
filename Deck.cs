@@ -53,6 +53,7 @@ namespace Gymnasiearbete
         {
             return Deckcard.Pop();
         }
+        
 
     }
 }

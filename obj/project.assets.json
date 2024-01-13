@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\Gymnasiearbete\\Gymnasiearbete\\Gymnasiearbete.csproj",
+      "projectUniqueName": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\NyaGymnasiearbete\\Gymnasiearbete\\Gymnasiearbete.csproj",
       "projectName": "Gymnasiearbete",
-      "projectPath": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\Gymnasiearbete\\Gymnasiearbete\\Gymnasiearbete.csproj",
+      "projectPath": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\NyaGymnasiearbete\\Gymnasiearbete\\Gymnasiearbete.csproj",
       "packagesPath": "C:\\Users\\Lucre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\Gymnasiearbete\\Gymnasiearbete\\obj\\",
+      "outputPath": "C:\\Users\\Lucre\\OneDrive\\Skrivbord\\NyaGymnasiearbete\\Gymnasiearbete\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lucre\\AppData\\Roaming\\NuGet\\NuGet.Config",
